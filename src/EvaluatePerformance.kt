@@ -1,0 +1,3 @@
+interface EvaluatePerformance {
+   fun evaluatePerformance()
+}
