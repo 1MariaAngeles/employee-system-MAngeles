@@ -1,6 +1,6 @@
-abstract class Empleados(
-    val nombre: String,
-    val salario: Double
+abstract class Employee(
+    val name: String,
+    val salary: Double
 ) : EvaluatePerformance {
 
     abstract fun work()
@@ -9,6 +9,6 @@ abstract class Empleados(
     override abstract fun evaluatePerformance()
 
     fun detailsEmployee(): String {
-        return "Nombre: $nombre, Salario: $salario"
+        return "Nombre: $name, Salario: $salary"
     }
 }
